@@ -42,7 +42,17 @@ footer{
     list-style:  none;
      gap: 1.5rem;
 }
-
+.icons{
+  padding: 10px 12px; 
+  height: 1.5rem; 
+  width: 1.5rem;
+  display: flex;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.icons:hover{
+  color: #1c69d4;
+}
 .nav-links a {
   position: relative;
   text-decoration: none;
@@ -101,6 +111,9 @@ footer{
   font-weight: 600;
   font-family: 'Noto Sans KR';
 }
+.btn:hover{
+  background-color: #0653b6;
+}
 .phone{
   background-color: #ffffff;
   border-radius: 50%;
@@ -147,9 +160,13 @@ footer{
   padding: 0.7rem 20px;
   border: 1px solid #000000;
   height: 1.8rem;
+  width: auto;
   color: #000000;
   font-family: "Dosis", sans-serif;
   font-weight: 600;
+}
+.card-btn:hover{
+  border: 2px solid #000000;
 }
 .x5-banner {
   background-image: url('https://bmw.scene7.com/is/image/BMW/X5-7:3to1?fmt=webp&wid=2560&hei=853');
@@ -195,6 +212,20 @@ footer{
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 1rem;
+}
+.x5-btn:hover{
+  --border-color: #fff;
+  --border-width: 2px;
+    box-shadow: inset 0 0 0 var(--border-width, 2px) var(--border-color, unset);
+    color: #fff;
+}
+.know-more{
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+.know-more:hover{
+  color: #0653b6;
 }
 .x3-banner {
   background-image: url('https://bmw.scene7.com/is/image/BMW/x3-mobile-banner-image-1:3to1?fmt=webp&wid=2560&hei=853');
@@ -267,6 +298,9 @@ footer{
   font-family:"Noto Sans KR", sans-serif;
   font-weight: 500;
 } 
+.footer-items li:hover{
+  color: #0653b6;
+}
 .footer-items p{
   font-family: 'Montserrat',sans-serif;
   margin-top: 4rem;
@@ -282,11 +316,26 @@ footer{
 .footer-icons i {
   margin-right: 1.5rem;
   font-size: 1.2rem;
+  color: #4d4d4d;
+}
+.model{
+  font-weight: 500;
+  font-family:sans-serif;
+   color: #000000;
+}
+.model:hover{
+  color: #0653b6;
 }
 .copy{
   margin-top: 5rem;
   margin-left: 5.6rem;
   height: 3rem;
+}
+.copy a{
+  color: #000000;
+}
+.copy a:hover{
+  color: #0653b6;
 }
 .up{
    background-color: #ffffff;
